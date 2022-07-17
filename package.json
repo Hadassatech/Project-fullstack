@@ -1,0 +1,17 @@
+{
+  "name": "projectmenora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.17.2",
+    "node_extra_ca_certs_mozilla_bundle": "^1.0.5"
+  }
+}
