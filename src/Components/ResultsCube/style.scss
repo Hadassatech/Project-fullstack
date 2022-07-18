@@ -1,0 +1,65 @@
+.modal-content {
+  @media (max-width: 50rem) {
+    height: 30em;
+    .modal-title {
+      font-size: 2.5rem;
+    }
+    .btn-close {
+      font-size: 3rem;
+      margin-bottom: 2.5em;
+    }
+  }
+  .modal-body {
+    background-color: rosybrown;
+    font-size: 1.5rem;
+    @media (max-width: 50rem) {
+      font-size: 2rem;
+      font-family: cursive;
+    }
+  }
+  .modal-footer {
+    background-color: initial;
+  }
+}
+.wrapper-cards {
+  .card {
+    cursor: pointer;
+    background-color: initial;
+    margin-bottom: 4em;
+    flex: 1;
+    margin-right: 2em;
+    width: 15rem;
+    border: 1px solid #f8f9fa;
+    @media (max-width: 50rem) {
+      height: 50em;
+      width: 75% !important;
+      margin: 0 auto;
+      margin-top: 2em;
+      border-radius: 10px;
+    }
+    .card-img-top {
+      @media (max-width: 50rem) {
+        border-radius: 10px;
+        height: 35em;
+      }
+    }
+    .list-group-item {
+      font-size: 2rem;
+    }
+    .card-body {
+      height: 5em;
+      .link-image {
+        color: greenyellow;
+        @media (max-width: 50rem) {
+          font-size: 2rem;
+        }
+      }
+      @media (max-width: 50rem) {
+        font-size: 1.8rem;
+        .card-title {
+          color: white;
+        }
+      }
+    }
+  }
+}

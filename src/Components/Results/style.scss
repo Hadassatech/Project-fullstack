@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: revert;
+  .title-movies {
+    text-align: center;
+    padding-top: 1em;
+    color: greenyellow;
+  }
+  .search {
+    margin-bottom: 3em;
+    margin-top: 3em;
+    width: 30%;
+  }
+  .wrapper-all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+  }
+  @media (max-width: 50rem) {
+    .wrapper-all-cards {
+      display: block;
+      padding: 2rem 1rem;
+    }
+  }
+  .input-search {
+    color: initial;
+    display: block;
+    color: initial;
+    display: block;
+    margin: auto;
+    width: 15em;
+    width: 40%;
+    border-radius: 12px;
+    @media (max-width: 50rem) {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+}
